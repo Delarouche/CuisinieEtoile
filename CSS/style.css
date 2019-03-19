@@ -1,0 +1,102 @@
+body {  font-family: 'fall_is_comingregular';
+        font-weight: normal;
+        font-style: normal;
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+      
+        
+      }
+#background{
+  background-image: url( "https://d3hvwccx09j84u.cloudfront.net/0,0/image/little-ears-pasta-22fc9b26.jpg");
+  background-size: cover;
+  background-blend-mode: soft-light;
+  height: 55vh;
+  width: 100vw;
+}
+  #titleWebsite {
+                    width: 70vw;
+                    height: 15vh; 
+                    margin: 5vh auto;
+                   
+                    
+      }
+      #titleWebsite h1{
+                margin-top: 60%;
+                font-size: 12rem;
+                text-transform: uppercase;
+                margin-top: 0;
+                letter-spacing: .3rem; 
+                  justify-content: center;
+                  margin: 0 auto;
+                  text-align: center;
+                  color: rgb(241, 81, 18);
+                 
+
+      }
+      #linksTitle{  width: 50vw;
+                    margin: 5vh auto;
+                    text-align: center;
+                   
+
+      }
+      div.Title{
+       
+        justify-content: center;
+        height: 100vh;
+      }
+      div.Navlink  a{ color:rgb(53, 46, 44);
+                    text-decoration: none;
+                  font-size: 1.5em;
+                   text-align: center;
+                padding: .5rem;
+                transition: .6s all;
+
+      }
+      h2 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-top: 0;
+        letter-spacing: .3rem;
+      
+      }
+      div.Titlelink{
+          float: left;
+          width: 33%;
+          height: 70%;
+      }
+      div.linkswrapper {
+        height: 10vh;
+        width: 100vw;
+      }
+      footer{
+        text-align: center;
+      }
+      a {
+       
+        color:rgb(230, 75, 14);
+        text-decoration: none;
+        font-size: 3.8em;
+        text-align: center;
+        padding: .5rem;
+        transition: .6s all; 
+      }
+      a:hover{
+       color: rgb(74, 191, 238);
+     
+      }
+      /*@media screen and (max-width: 1200px) {}
+    */
+
+      
+    @font-face {
+      font-family: 'fall_is_comingregular';
+      src: url('fonts/fall_is_coming_-_ttf-webfont.woff2') format('woff2'),
+           url('fonts/fall_is_coming_-_ttf-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+
+  
